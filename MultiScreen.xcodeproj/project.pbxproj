@@ -15,6 +15,7 @@
 		0FAB4CE51F2AD804007F691E /* MultiScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB4CE41F2AD804007F691E /* MultiScreenTests.swift */; };
 		0FAB4CF01F2AD804007F691E /* MultiScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB4CEF1F2AD804007F691E /* MultiScreenUITests.swift */; };
 		0FAB4CFE1F2AD9A7007F691E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB4CFD1F2AD9A7007F691E /* SecondViewController.swift */; };
+		0FAB4D001F2ADEDE007F691E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB4CFF1F2ADEDE007F691E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0FAB4CEF1F2AD804007F691E /* MultiScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiScreenUITests.swift; sourceTree = "<group>"; };
 		0FAB4CF11F2AD804007F691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FAB4CFD1F2AD9A7007F691E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0FAB4CFF1F2ADEDE007F691E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0FAB4CC31F2AD803007F691E = {
 			isa = PBXGroup;
 			children = (
+				0FAB4CFF1F2ADEDE007F691E /* README.md */,
 				0FAB4CCE1F2AD804007F691E /* MultiScreen */,
 				0FAB4CE31F2AD804007F691E /* MultiScreenTests */,
 				0FAB4CEE1F2AD804007F691E /* MultiScreenUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				0FAB4CFE1F2AD9A7007F691E /* SecondViewController.swift in Sources */,
 				0FAB4CD21F2AD804007F691E /* ViewController.swift in Sources */,
+				0FAB4D001F2ADEDE007F691E /* README.md in Sources */,
 				0FAB4CD01F2AD804007F691E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

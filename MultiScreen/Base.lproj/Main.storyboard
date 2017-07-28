@@ -27,16 +27,27 @@
                                 <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgG-JN-93r">
+                                <rect key="frame" x="139" y="81" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Go To Second"/>
+                                <connections>
+                                    <segue destination="5Xa-x3-SjA" kind="show" id="V8O-Lt-WRG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="gXc-ak-2Zl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="IQy-Jr-Kfo"/>
+                            <constraint firstItem="BgG-JN-93r" firstAttribute="top" secondItem="gXc-ak-2Zl" secondAttribute="bottom" constant="19.5" id="iV4-76-6uf"/>
+                            <constraint firstItem="BgG-JN-93r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qFy-Kb-OJp"/>
                             <constraint firstItem="gXc-ak-2Zl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="svf-gw-dup"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="hfZ-s4-HIq">
@@ -56,10 +67,20 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5T-wG-pdV">
+                                <rect key="frame" x="142.5" y="74" width="89" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back To First"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="7qy-9U-gJj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="pw2-5O-pdD" firstAttribute="centerX" secondItem="QBi-gO-nKg" secondAttribute="centerX" id="faZ-KX-T4c"/>
+                            <constraint firstItem="R5T-wG-pdV" firstAttribute="top" secondItem="pw2-5O-pdD" secondAttribute="bottom" constant="13.5" id="fdZ-Kl-JHH"/>
+                            <constraint firstItem="R5T-wG-pdV" firstAttribute="centerX" secondItem="QBi-gO-nKg" secondAttribute="centerX" id="gXS-Ef-XeN"/>
                             <constraint firstItem="pw2-5O-pdD" firstAttribute="top" secondItem="LM0-o8-sPD" secondAttribute="bottom" constant="8" id="lu1-7u-Lgk"/>
                         </constraints>
                     </view>
